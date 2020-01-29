@@ -1,0 +1,24 @@
+/usr/local/java/jdk-9.0.1/bin/java -javaagent:/opt/idea-IC-173.3727.127/lib/idea_rt.jar=44595:/opt/idea-IC-173.3727.127/bin -Dfile.encoding=UTF-8 -classpath /home/b1/IdeaProjects/3-InheritanceAndPolymorphism/out/production/3-InheritanceAndPolymorphism com.company.Main
+
+Enter the height and radius of first cylinder
+5
+5
+
+Do you want to give color? Y/N 
+y
+violet
+
+Enter the height  and radius of second cylinder
+5
+5
+
+Do you want to give color? Y/N 
+y
+violet
+violet
+violet
+
+The two cylinders are similar
+
+
+Process finished with exit code 0
