@@ -14,24 +14,37 @@ public class CseDept extends ThirdSem {
 
     public void AccessSpecifiersChecking(){
 //        super.methodDefault();
+//        this.methodDefault();
 //        super.methodPrivate();
+//        this.methodPrivate();
         super.methodProtected();
         this.methodProtected();
         super.WelcomeMsg();
         this.WelcomeMsg();
     }
 
-
-    @Override
-    public void WelcomeMsg(){
-
-        System.out.println("Inside Overridden public method.");
-    }
+//    @Override
+//    void methodDefault(){
+//        System.out.println("Default Method is Overridden.");
+//    }
+//
+//
+//        @Override
+//    private void methodPrivate(){
+//        System.out.println("Private Method is Overridden.");
+//    }
 
 
     @Override
     protected void methodProtected(){
-        System.out.println("Inside Overridden protected method.");
+        System.out.println("Protected Method is Overridden.");
+    }
+
+
+    @Override
+    public void WelcomeMsg(){
+
+        System.out.println("Public Method is Overridden.");
     }
 
 }
@@ -41,6 +54,9 @@ class AseDept {
         System.out.println("Section:Different Package Non-Sub-class");
 
         ThirdSem thirdSem = new ThirdSem();
+//        thirdSem.methodDefault();
+//        thirdSem.methodPrivate();
+//        thirdSem.methodProtected();
         thirdSem.WelcomeMsg();
     }
 
