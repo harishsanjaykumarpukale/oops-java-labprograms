@@ -1,12 +1,12 @@
-package com.company.RVCE;
+package RVCE;
 
-import com.company.CSE.ThirdSem;
+import CSE.ThirdSem;
 
 public class CseDept extends ThirdSem {
 
 
     public static void main(String[] args) {
-        System.out.println("Section:Different Package sub-class");
+        System.out.println("Section:Different Package Sub-class");
 
         CseDept cseDept = new CseDept();
         cseDept.AccessSpecifiersChecking();
@@ -15,10 +15,10 @@ public class CseDept extends ThirdSem {
     public void AccessSpecifiersChecking(){
 //        super.methodDefault();
 //        super.methodPrivate();
-        super.WelcomeMsg();
-        this.WelcomeMsg();
         super.methodProtected();
         this.methodProtected();
+        super.WelcomeMsg();
+        this.WelcomeMsg();
     }
 
 
@@ -32,6 +32,16 @@ public class CseDept extends ThirdSem {
     @Override
     protected void methodProtected(){
         System.out.println("Inside Overridden protected method.");
+    }
+
+}
+
+class AseDept {
+    public static void main(String[] args) {
+        System.out.println("Section:Different Package Non-Sub-class");
+
+        ThirdSem thirdSem = new ThirdSem();
+        thirdSem.WelcomeMsg();
     }
 
 
