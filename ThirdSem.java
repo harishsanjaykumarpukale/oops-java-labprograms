@@ -2,16 +2,16 @@ package CSE;
 
 public class ThirdSem  {
     void methodDefault(){
-        System.out.println("Inside Default Method");
+        System.out.println("Default Method is Accessible");
     }
     private void methodPrivate(){
-        System.out.println("Inside private method");
+        System.out.println("Private method is Accessible");
     }
     protected void methodProtected(){
-        System.out.println("Inside Protected Method");
+        System.out.println("Protected Method is Accessible");
     }
     public void WelcomeMsg(){
-        System.out.println("Inside public method \n Welcome to CSE-DEPT 3rd Sem young budding Engineers");
+        System.out.println("Public Method is Accessible \n Welcome to CSE-DEPT 3rd Sem young budding Engineers");
     }
 
     public static void main(String[] args){
@@ -39,6 +39,7 @@ class IseDept extends ThirdSem{
         super.methodDefault();
         this.methodDefault();
 //        super.methodPrivate();
+//        this.methodPrivate();
         super.methodProtected();
         this.methodProtected();
         super.WelcomeMsg();
@@ -48,20 +49,23 @@ class IseDept extends ThirdSem{
 
     @Override
     void methodDefault(){
-        System.out.println("Inside Overridden Default method.");
+        System.out.println("Default Method is Overridden.");
     }
 
-
+//    @Override
+//    private void methodPrivate(){
+//        System.out.println("Private Method is Overridden.");
+//    }
     @Override
     protected void methodProtected(){
-        System.out.println("Inside Overridden protected method.");
+        System.out.println("Protected Method is Overridden.");
     }
 
 
     @Override
     public void WelcomeMsg(){
 
-        System.out.println("Inside Overridden public method.");
+        System.out.println("Public Method is Overridden.");
     }
 
 
