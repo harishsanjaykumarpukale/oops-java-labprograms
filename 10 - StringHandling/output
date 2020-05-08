@@ -1,0 +1,72 @@
+
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :1
+Enter the sentence:hi, I am Harish
+The penultimate word is am
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :1
+Enter the sentence:hi there
+The penultimate word is hi
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :1
+Enter the sentence:hi
+The sentence entered should contain atleast 2 words 
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :2
+Enter the sentence:python vs java
+The sentence after replacement is :java vs python
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :2
+Enter the sentence:python is better than java
+The sentence after replacement is :java is better than python
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :2
+Enter the sentence:cool
+The sentence after replacement is :cool
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :3
+Enter the sentence:Hi there, what are you doing
+The sub-strings are:
+Hi
+there,
+what
+are
+you
+doing
+
+ Press 
+ 1 for penulutimate word 
+ 2 for replace 
+ 3 for substrings 
+ 4 for exit 
+ :4
+ 
+ 
