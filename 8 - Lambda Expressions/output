@@ -1,0 +1,78 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/lib/idea_rt.jar=46013:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/bin -Dfile.encoding=UTF-8 -classpath /home/harishsp/IdeaProjects/NewProject/out/production/NewProject com.jetbrains.LambdaExpressions.Main
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :1
+Enter the number:7
+The number 7 is Odd.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :1
+Enter the number:10
+The number 10 is Even.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :2
+Enter the number:25
+The number 25 is Composite.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :2
+Enter the number:2
+The number 2 is Prime.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :2
+Enter the number:1769
+The number 1769 is Composite.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :2
+Enter the number:23
+The number 23 is Prime.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :3
+Enter the number:1001
+The number 1001 is Palindrome.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :3
+Enter the number:1114
+The number 1114 is not Palindrome.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :3
+Enter the number:1212
+The number 1212 is not Palindrome.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :3
+Enter the number:1221
+The number 1221 is Palindrome.
+Press 
+ 1 for isOdd 
+ 2 for isPrime 
+ 3 for isPalindrome 
+ :4
+Enter the number:
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
