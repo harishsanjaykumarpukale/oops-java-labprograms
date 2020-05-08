@@ -1,0 +1,14 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/lib/idea_rt.jar=39423:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/bin -Dfile.encoding=UTF-8 -classpath /home/harishsp/IdeaProjects/NewProject/out/production/NewProject com.jetbrains.packagesInterfaces.Main
+Note: To make it Interesting it is in the following format
+Lion: Helloooo ! My Name is Sheru 
+Snake: Hi there ! I am Python
+Lion: I am Lion and I eat flesh of other animals like deer,goat,etc.
+Snake: I land in category of snakes and I swallow my preys .
+Lion: I have four legs.
+Snake: I don't have legs.
+Lion: I always like Roaring
+Snake: I produce Hissss sound
+Lion: When I am tired I like Sleeping :)
+Snake: I too love sleeping
+
+Process finished with exit code 0
