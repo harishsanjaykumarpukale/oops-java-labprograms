@@ -1,0 +1,15 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/lib/idea_rt.jar=39221:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/bin -Dfile.encoding=UTF-8 -classpath /home/harishsp/IdeaProjects/NewProject/out/production/NewProject com.jetbrains.Collections.Main
+The array list is: [Red, Green, Orange, White, Black]
+Created Array content:
+Red 
+Green 
+Orange 
+White 
+Black 
+
+Black White Orange Green Red Portion of the list: [Green, Orange]
+The sorted list is: [Black, Green, Orange, Red, White]
+Elements in cloneList are:
+[Black, Green, Orange, Red, White]
+
+Process finished with exit code 0
