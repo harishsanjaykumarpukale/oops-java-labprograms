@@ -1,0 +1,100 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/lib/idea_rt.jar=44653:/home/harishsp/Downloads/ideaIE-2019.3/idea-IE-193.5233.131/bin -Dfile.encoding=UTF-8 -classpath /home/harishsp/IdeaProjects/NewProject/out/production/NewProject com.jetbrains.ExceptionHandling.Customer
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+1
+ Current Balance is 500.0
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+2
+Enter the amount and currency Type (OLD / NEW)
+500
+new
+Amount of Rs:500.0 deposited successfully.
+ Current Balance is 1000.0
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+2
+Enter the amount and currency Type (OLD / NEW)
+6000
+old
+Deposit of Old Currency of Rs:6000.0 crosses Rs:5000.00 and cannot be Deposited.
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+3
+Enter the amount
+300
+Amount of Rs:300.0 withdrawn successfully.
+ Current Balance is 700.0
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+3
+Enter the amount
+300
+This withdraw will lead to balance going below 500 (minimum balance).
+ Would you like to continue ? Y/N
+y
+Amount of Rs:300.0 withdrawn successfully.
+ Current Balance is 400.0
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+2
+Enter the amount and currency Type (OLD / NEW)
+400
+old
+Amount of Rs:400.0 deposited successfully.
+ Current Balance is 800.0
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+3
+Enter the amount
+600
+This withdraw will lead to balance going below 500 (minimum balance).
+ Would you like to continue ? Y/N
+n
+Withdrawal of Amount of Rs:600.0 cancelled .
+ Current Balance is 800.0
+
+ Press 
+ 1 for Balance Enquiry 
+ 2 for Deposit 
+ 3 for Withdrawal 
+ 4 for Exit 
+:
+4
+
+Process finished with exit code 0
