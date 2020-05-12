@@ -1,4 +1,3 @@
-package com.jetbrains;
 
 import java.util.Scanner;
 
