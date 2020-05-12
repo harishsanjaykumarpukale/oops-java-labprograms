@@ -1,4 +1,3 @@
-package StringHandling;
 
 import java.util.Scanner;
 
