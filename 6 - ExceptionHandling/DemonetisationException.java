@@ -1,4 +1,4 @@
-package com.jetbrains.ExceptionHandling;
+
 
 public class DemonetisationException extends Exception {
     float amount;
