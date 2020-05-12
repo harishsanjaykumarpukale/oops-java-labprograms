@@ -1,4 +1,4 @@
-package com.jetbrains.LambdaExpressions;
+
 import java.util.Scanner;
 
 @FunctionalInterface
