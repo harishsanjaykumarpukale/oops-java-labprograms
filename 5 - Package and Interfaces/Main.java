@@ -1,4 +1,4 @@
-package com.jetbrains.packagesInterfaces;
+
 interface Animal{
     void eat();
     void howManyLegs();
