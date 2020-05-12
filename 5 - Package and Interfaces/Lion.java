@@ -1,4 +1,4 @@
-package com.jetbrains.packagesInterfaces;
+
 
 public class Lion implements TiredAnimal {
 
