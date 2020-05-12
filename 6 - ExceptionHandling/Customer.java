@@ -1,4 +1,3 @@
-package com.jetbrains.ExceptionHandling;
 
 import java.util.Scanner;
 
