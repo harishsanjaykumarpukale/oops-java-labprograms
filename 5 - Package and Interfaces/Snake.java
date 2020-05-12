@@ -1,4 +1,4 @@
-package com.jetbrains.packagesInterfaces;
+
 
 public class Snake implements TiredAnimal {
 
