@@ -1,85 +1,66 @@
 package com.jetbrains.Collections;
 
-import java.util.*;
-
-class  Arrlist
-{
-    ArrayList<String> list_Strings = new ArrayList<>();
-    // String[] strArr = new String[];
-    // ArrayList<String> revArrayList = new ArrayList<String>();
-
-
-    public void addList()
-    {
-        list_Strings.add("Red");
-        list_Strings.add("Green");
-        list_Strings.add("Orange");
-        list_Strings.add("White");
-        list_Strings.add("Black");
-        System.out.println("The array list is: "+list_Strings);
-    }
-
-    public void toArr() {
-        String[] strArr=new String[list_Strings.size()];
-        list_Strings.toArray(strArr);
-        System.out.println("Created Array content:");
-        for (String str : strArr) {
-            System.out.println(str+ " ");
-        }
-        System.out.println();
-    }
-
-    public void reverseArrayList()
-    {
-        // Arraylist for storing reversed elements
-        // ArrayList<String> revArrayList = new ArrayList<String>();
-        ArrayList<String> rev_list=new ArrayList<>();
-        for (int i = list_Strings.size() - 1; i >= 0; i--) {
-
-            // Append the elements in reverse order
-            rev_list.add(list_Strings.get(i));
-        }
-        for (int i = 0; i < rev_list.size(); i++) {
-            System.out.print(rev_list.get(i) + " ");
-        }
-
-    }
-
-    public void subListArr()
-    {
-        //Return portion of the list : fromindex(inclusive)->1,
-        //toindex(exclusive)->3
-        ArrayList<String> new_color_list1 = new ArrayList<>( list_Strings.subList(1, 3));
-        System.out.println("Portion of the list: "+new_color_list1);
-
-    }
-
-    public void sortArr()
-    {
-        Collections.sort(list_Strings);
-        System.out.println("The sorted list is: "+list_Strings);
-
-    }
-
-    public void cloneArr()
-    {
-        ArrayList<String> cloneList =new ArrayList<> ();
-        cloneList=(ArrayList)list_Strings.clone();
-        System.out.println("Elements in cloneList are:");
-        System.out.println(cloneList);
-    }
-
-}
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+        ArrayList<String> colorList = new ArrayList<String>();
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+        while (true){
+            System.out.print("Press \n 1 for adding colors \n 2 for copy \n 3 for reverse \n 4 for sublist \n 5 for sorting \n 6 for clone \n 7 for exit \n :");
+            choice = Integer.parseInt(scanner.nextLine());
+            switch (choice){
+                case 1:
+                    System.out.print("how many colors are you adding:");
+                    int n = Integer.parseInt(scanner.nextLine());
+                    System.out.println("Enter the colors");
+                    for (int i = 0; i < n; i++)
+                        colorList.add(scanner.nextLine());
+                    System.out.println("The color list is : " + colorList);
+                    break;
+                case 2:
+                    String[] colorListArray = new String[colorList.size()];
+                    colorList.toArray(colorListArray);
+                    System.out.println("The color list array is: ");
+                    for (String color : colorListArray)
+                        System.out.println(color);
+                    break;
+                case 3:
+                    ArrayList<String> revColorList = new ArrayList<String>();
+                    for (int i = colorList.size()-1 ; i >=0 ; i--)
+                        revColorList.add(colorList.get(i));
+                    System.out.println("The color list is : " + revColorList);
+                    break;
+                case 4:
+                    System.out.println("Enter the from position (inclusive):");
+                    int fromIndex = Integer.parseInt(scanner.nextLine()) - 1;
+                    System.out.println("Enter the to position (exclusive):");
+                    int toIndex = Integer.parseInt(scanner.nextLine()) - 1;
+                    if(fromIndex>toIndex || toIndex > colorList.size()-1){
+                        System.out.println("You have entered incorrect position(s)");
+                        break;
+                    }
+                    List<String> subList = colorList.subList(fromIndex,toIndex);
+                    System.out.println("The sub list is : " + subList);
+                    break;
+                case 5:
+                    Collections.sort(colorList);
+                    System.out.println("The sorted list is : " + colorList);
+                    break;
+                case 6:
+                    ArrayList<String> cloneList = (ArrayList<String>) colorList.clone();
+                    System.out.println("The cloned list is : " + cloneList);
+                    break;
+                case 7:
+                default:
+                    System.exit(0);
+            }
+        }
 
-        Arrlist a1 = new Arrlist();
-        a1.addList();
-        a1.toArr();
-        a1.reverseArrayList();
-        a1.subListArr();
-        a1.sortArr();
-        a1.cloneArr();
+
     }
 }
